@@ -1,10 +1,10 @@
 {
     "type": "mysql",
-    "host": "localhost",
+    "host": "us-cdbr-east-02.cleardb.com",
     "port": 3306,
-    "username": "root",
-    "password": "",
-    "database": "baseSupermercado",
+    "username": "bec1e5d07f9640",
+    "password": "9cbd70e8",
+    "database": "heroku_0910e6fc966e7d4",
     "entities" : ["dist/entity/**/*.js"],
     "synchronize" : true
     

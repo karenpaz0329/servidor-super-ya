@@ -38,5 +38,5 @@ app.use(facturaRoutes);
 
 
 /*El servidor se ejecutara por el puerto 3000*/
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 console.log('El servidor esta por el puerto' , 3000);
